@@ -18,12 +18,12 @@
     <title>Flutuar.com</title>
   </head>
 
-  <body class="h-[100vh]">
+  <body class="h-[100vh] grid grid-rows-[1fr_auto]">
     <main class="flex flex-col items-center">
       <img
         class="w-[35rem] mt-[6.2rem] mb-[3.2rem]"
         src="./src/assets/image.svg"
-        alt="Desenho de uma mulher segurando o planeta Terra"
+        alt="Desenho de uma mulher de blusa cinza segurando o planeta Terra com suas mãos"
       />
 
       <h1 class="font-dosis text-[3.2rem]/[4rem] text-[#3F3D56] font-normal mb-[1.6rem]">
@@ -38,9 +38,21 @@
         café da manhã, e até seguro viagem com <strong class="text-[#3F3D56]">preços arrasadores</strong>!
       </p>
 
-      <p class="font-open_sans text-[1.5rem]/[2rem] text-[#828282] font-normal">
+      <p class="font-open_sans text-[1.5rem]/[2rem] text-[#828282] font-normal mb-[6.2rem]">
         Se você ainda não tem um destino definido, confira nossa seção de ofertas.
       </p>
     </main>
+
+    <footer class="flex flex-col items-center">
+      <div id="line" class="h-[0] w-[39.1rem] border-[1px] border-[#ECEFF2] mb-[1.6rem]"></div>
+
+      <nav class="flex gap-[4.2rem] font-open_sans text-[1.5rem]/[2.2rem] text-[#3F3D56] mb-[3.5rem]">
+        <a class="hover:opacity-70 transition-opacity duration-[0.3s]" href="#"><strong>Destinos</strong></a>
+        <a class="hover:opacity-70 transition-opacity duration-[0.3s]" href="#"><strong>Ofertas</strong></a>
+        <a class="hover:opacity-70 transition-opacity duration-[0.3s]" href="#"><strong>Contato</strong></a>
+      </nav>
+
+      <aside class="w-[100%]"><img class="w-[100%]" src="./src/assets/wave.svg" alt="Desenho de um wave azul" /></aside>
+    </footer>
   </body>
 </html>
