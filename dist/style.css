@@ -521,3 +521,54 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.mt-\[6\.2rem\] {
+  margin-top: 6.2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.w-\[35rem\] {
+  width: 35rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-\[3\.2rem\] {
+  gap: 3.2rem;
+}
+
+.font-dosis {
+  font-family: Dosis, sans-serif;
+}
+
+.text-\[3\.2rem\]\/\[4rem\] {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+
+.text-\[62\.5\%\] {
+  font-size: 62.5%;
+}
+
+.text-\[\#3F3D56\] {
+  --tw-text-opacity: 1;
+  color: rgb(63 61 86 / var(--tw-text-opacity));
+}
+
+.text-\[\#EE24FF\] {
+  --tw-text-opacity: 1;
+  color: rgb(238 36 255 / var(--tw-text-opacity));
+}
