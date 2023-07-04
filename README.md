@@ -21,7 +21,7 @@
 <br />
 
 <div align="center">
-  <img alt="Desafio Flutuar.com" src="./.github/preview.png" width="100%" />
+  <img alt="Desafio Flutuar.com" src="./.github/thumbnail.png" width="100%" />
 </div>
 
 ## 🎨 Layout
